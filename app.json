@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "case-study_7-1",
-    "slug": "case-study_7-1",
+    "name": "todos",
+    "slug": "todos",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a51e9467-d566-4d96-90bf-5c2d841156b9"
+      }
+    },
+    "owner": "hleroy360",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a51e9467-d566-4d96-90bf-5c2d841156b9"
     }
   }
 }

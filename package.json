@@ -1,5 +1,5 @@
 {
-  "name": "case-study_7-1",
+  "name": "todos",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -25,7 +25,8 @@
     "react-native-web": "~0.19.6",
     "react-redux": "^8.1.2",
     "redux": "^4.2.1",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "expo-updates": "~0.18.19"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
