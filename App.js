@@ -10,7 +10,7 @@ import LoadingScreen from './Loading/LoadingScreen';
 import TodoScreen from './Todos/TodoScreen';
 import AddTodoScreen from './Todos/AddTodoScreen';
 
-import TestAPIScreen from './API/TestAPIScreen';
+//import TestAPIScreen from './API/TestAPIScreen';
 import LocationsScreen from './Locations/LocationsScreen';
 
 import rootReducer from './Redux/RootReducer';
@@ -35,10 +35,10 @@ function TodosStackScreen({ todos, addTodo }) {
         name="Add Todo"
         component={AddTodoScreen}
       />
-      <TodoStack.Screen
+      {/*<TodoStack.Screen
         name="Test API"
         component={TestAPIScreen}
-      />  
+      />*/}
     </TodoStack.Navigator>
   );
 }

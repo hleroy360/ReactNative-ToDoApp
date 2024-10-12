@@ -17,13 +17,13 @@ const TodoScreen = ({ navigation }) => {
         />
       </View>
       <View>
-        <Button
+        {/*<Button
           title="Test API"
           
           onPress={() =>
             navigation.navigate('Test API')
           }
-        />
+        />*/}
       </View>
     </View>
   );
