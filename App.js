@@ -72,10 +72,10 @@ class App extends Component {
               name="Todo Manager"
               component={TodosStackScreen}
             />
-            <Tab.Screen
+            {/*<Tab.Screen
               name="Locations"
               component={LocationStackScreen}
-            />
+            />*/}
           </Tab.Navigator>
         </NavigationContainer>
       </Provider>

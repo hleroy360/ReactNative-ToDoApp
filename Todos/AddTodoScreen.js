@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     paddingHorizontal: 20,
-    width: windowWidth -20,
+    //width: windowWidth -20,
   },
 
   title: {
@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'gray',
     marginTop: 15,
     padding:10,
-    width: windowWidth/3
+    //width: '100%',
   },
   input: {
     height: 40,
